@@ -1,0 +1,6 @@
+application:
+  title: 'Alticci API'
+  version: v1.0.0
+
+# swagger 3 issue
+spring.mvc.pathmatch.matching-strategy: ant_path_matcher
