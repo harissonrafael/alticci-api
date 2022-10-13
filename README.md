@@ -5,7 +5,6 @@
 Alticci-API is a java backend application for calculate the alticci sequence.
 
 The Alticci sequence - a(n) - is defined by:
-A sequência Alticci - a(n) - é definida da seguinte forma:
 
 ```
 n=0 => a(0) = 0
@@ -56,26 +55,18 @@ java -jar app.jar
 ## How to run the project using docker
 
 - Go to `alticci-api` folder;
-- run command to build the project:
+- run command to build, create image and run the project:
 
 ```sh
-./gradlew build
+./start_using_docker.sh
 ```
 
-- Confirm that docker is running;
-- To build the project, just run the command
+> Note: To stop and clear docker container and images run the command `./stop_using_docker.sh`
 
-```sh
-docker build --tag alticci-api .
-```
+## How to use
 
-- To run the project with docker, just run the command
-
-```sh
-docker run -p 8080:8080 alticci-api
-```
-
-- Go to the browser and access a URL <http://localhost:8080/alticci/{index_number}>
+If all commands were executed without error, go to the browser and access a
+URL <http://localhost:8080/alticci/{index_number}>
 
 - Another possibility is on the browser using swagger page. Go to the browser and access a
   URL `http://localhost:8080/swagger-ui/`. On this page you can calculate the sequence based on the desired index and

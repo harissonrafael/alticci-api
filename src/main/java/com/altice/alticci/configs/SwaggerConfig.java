@@ -18,9 +18,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static com.altice.alticci.utils.Constants.ALTICCI;
-import static com.altice.alticci.utils.Constants.ALTICCI_DESCRIPTION;
-import static com.altice.alticci.utils.Constants.SWAGGER_TAG_DESCRIPTION;
+import static com.altice.alticci.utils.Constants.*;
 import static java.lang.String.format;
 
 @Configuration
